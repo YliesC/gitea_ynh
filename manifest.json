@@ -7,7 +7,7 @@
         "en": "Lightweight git forge",
         "fr": "Forge git légère"
     },
-    "url": "http://gogs.io",
+    "url": "https://gitea.io",
     "license": "MIT",
     "version": "0.11.33~ynh1",
     "maintainer": {

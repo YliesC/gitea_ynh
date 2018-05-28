@@ -29,6 +29,7 @@ fi
 #=================================================
 
 create_dir() {
+    mkdir -p "/opt/$final_path"
     mkdir -p "$final_path/data"
     mkdir -p "$final_path/custom/conf"
     mkdir -p "$REPO_PATH"
@@ -46,7 +47,7 @@ config_nginx() {
 }
 
 config_gitea() {
-    ynh_backup_if_checksum_is_different "$final_path/custom/conf/app.ini"
+    ynh_backup_if_checksuœ_is_different "$final_path/custom/conf/app.ini"
 
     cp "$final_path/app.ini" "$final_path/custom/conf"
 
