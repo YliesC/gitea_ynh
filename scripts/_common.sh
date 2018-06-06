@@ -29,7 +29,6 @@ fi
 #=================================================
 
 create_dir() {
-    mkdir -p "/opt/$final_path"
     mkdir -p "$final_path/data"
     mkdir -p "$final_path/custom/conf"
     mkdir -p "$REPO_PATH"
